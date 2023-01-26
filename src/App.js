@@ -7,6 +7,8 @@ import Container from "./Container";
 const tasks = [
   { id: 1, content: "Przejść na Reacta", done: true },
   { id: 2, content: "Zjeść obiad", done: false },
+  { id: 3, content: "Zjeść kolacje", done: false },
+  { id: 4, content: "Zjeść śniadanie", done: false },
 ];
 
 const hideDoneTasks = false;
@@ -20,7 +22,7 @@ function App() {
         <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
       }
       listContent={
-      <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks}/>
+        <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks}/>
       }
       />
     </Container>
