@@ -1,0 +1,65 @@
+.container {
+    background-color: rgb(240, 240, 240);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+.container__header {
+    background-color: white;
+    padding: 14px;
+    margin-bottom: 2px;
+}
+
+.flex__container {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.flex__input {
+    border: 1px solid lightgrey;
+    flex-basis: 80%;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 110%;
+}
+
+.flex__button {
+    padding: 10px;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+    flex-basis: 20%;
+    font-size: 110%;
+    transition: 0.6s;
+    cursor:pointer;
+}
+
+.flex__button:hover {
+    background-color: hsl(180, 100%, 35%);
+    transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+    .flex__container {
+        flex: 1 0 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .flex__button {
+        flex-basis: 100%;
+    }
+
+    .flex__input {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        height: 37px;
+        margin-right: 0px;
+    }
+}
+

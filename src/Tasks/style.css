@@ -1,0 +1,73 @@
+.container {
+    background-color: rgb(240, 240, 240);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    border-bottom: solid rgb(240, 240, 240);
+    text-decoration: none;
+    padding: 10px;
+    grid-gap: 20px;
+    align-items: center;
+    margin-left: -43px;
+    padding-top: -55px;
+}
+
+.list__disabled {
+    display:none;
+    grid-template-columns: auto 1fr auto;
+    border-bottom: solid rgb(240, 240, 240);
+    text-decoration: none;
+    padding: 10px;
+    grid-gap: 20px;
+    align-items: center;
+    margin-left: -43px;
+    padding-top: -55px;
+}
+
+.list__item {
+    word-break: break-word;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+    word-break: break-word;
+}
+
+.list__item--doneHide {
+    display: none;
+}
+
+.list__button--remove {
+    height: 30px;
+    width: 30px;
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    border: 1px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.list__button--remove:hover {
+    background-color: hsl(0, 100%, 60%);
+}
+
+.list__button--done {
+    height: 30px;
+    width: 30px;
+    background-color: hsl(120, 100%, 25%);
+    color: white;
+    border: 1px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.list__button--done:hover {
+    background-color: hsl(120, 100%, 35%);
+}
+
