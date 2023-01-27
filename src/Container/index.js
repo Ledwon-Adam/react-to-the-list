@@ -1,7 +1,7 @@
 import "./style.css";
 
 const Container = ({children, title}) => (
-    <main className="body, body__background">
+    <main>
         <h1 className="header">{title}</h1>
         {children}
     </main>
