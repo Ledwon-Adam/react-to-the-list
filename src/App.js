@@ -15,7 +15,7 @@ const hideDoneTasks = false;
 
 function App() {
   return (
-      <Container title="Lista zadań">
+    <Container title="Lista zadań">
       <Form title="Dodaj nowe zadanie"/>
       <Section title="Lista zadań" 
       extraContent={
@@ -27,6 +27,6 @@ function App() {
       />
     </Container>
   );
-}
+};
 
 export default App;
