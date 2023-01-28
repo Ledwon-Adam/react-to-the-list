@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# To-do-list
+
+Demo:
+https://ledwon-adam.github.io/react-to-the-list/
+
+A simple list where we can add remove and check our tasks. I hope You enjoy and that list be usefull sometimes.
+
+Technologies used for the project;
+- HTML 
+- React.js
+- CSS
+- Babel
+
+![Lista](https://user-images.githubusercontent.com/120331981/215272173-90be0dee-714f-4e66-b4ee-827fc8a2e023.gif)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
