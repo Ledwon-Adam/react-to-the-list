@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Form = ({title}) => (
+const Form = ({ title }) => (
     <section className="container">
         <form className="form">
             <h2 className="container__header">{title}</h2>

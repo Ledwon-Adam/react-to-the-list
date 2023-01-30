@@ -11,7 +11,7 @@ Technologies used for the project;
 - CSS
 - Babel
 
-![Lista](https://user-images.githubusercontent.com/120331981/215272173-90be0dee-714f-4e66-b4ee-827fc8a2e023.gif)
+![Lista](https://user-images.githubusercontent.com/120331981/215514312-45b71a86-1ff8-4578-809a-fad61c94006e.gif)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

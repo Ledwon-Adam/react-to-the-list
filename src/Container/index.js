@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Container = ({children, title}) => (
+const Container = ({ children, title }) => (
     <main>
         <h1 className="header">{title}</h1>
         {children}
