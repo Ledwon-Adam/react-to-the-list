@@ -1,12 +1,12 @@
 import "./style.css";
 
 const Form = ({ title }) => (
-    <section className="container">
-        <form className="form">
-            <h2 className="container__header">{title}</h2>
-            <div className="flex__container">
-                <input className="flex__input" placeholder=" Co jest do zrobienia?" autoFocus />
-                <button className="flex__button">Dodaj zadanie</button>
+    <section className="form">
+        <form>
+            <h2 className="form__header">{title}</h2>
+            <div className="form__container">
+                <input className="form__input" placeholder=" Co jest do zrobienia?" autoFocus />
+                <button className="form__button">Dodaj zadanie</button>
             </div>
         </form>
     </section>
