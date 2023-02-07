@@ -24,13 +24,20 @@ function App() {
   };
 
   const toogleTaskDone = (id) => {
-    setTasks(task => task.map(task => {
-      if(task.id === id){
+    setTasks (task => task.map(task => {
+      if (task.id === id){
         return {...task, done: !task.done};
       }
 
       return task;
     }));
+  }
+
+  const setAllDone = () => {
+    setTasks (tasks => tasks.map(task=>({
+      ...task,
+      done: true,
+    })))
   }
 
   return (
@@ -41,7 +48,8 @@ function App() {
         <Buttons 
         tasks={tasks}
         hideDone={hideDone}
-        toogleHideDone={toogleHideDone}/>
+        toogleHideDone={toogleHideDone}
+        setAllDone={setAllDone}/>
       }
       listContent={
         <Tasks 
